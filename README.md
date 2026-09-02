@@ -180,4 +180,4 @@ Unless explicitly stated otherwise, private source code, architecture, documenta
 
 **GitHub:** https://github.com/miguelkolli  
 **Live project:** https://shuno.app  
-**Email:** info@shuno.app
+**Email:** Miguel.kolliander@gmail.com
