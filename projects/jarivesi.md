@@ -1,8 +1,10 @@
 # Järivesi
 
-## IoT and energy dashboard
+## Live IoT and energy dashboard
 
-Järivesi on lämmitysjärjestelmän seuranta- ja ohjausdashboard, joka yhdistää Shelly IoT -laitteita, lämpötilatietoa, releiden tilaa, historiadataa ja Suomen day-ahead-sähkön hintatietoa.
+Järivesi on tuotannossa toimiva lämmitys- ja energiaseurannan dashboard, joka yhdistää Shelly IoT -laitteita, lämpötilatietoa, releiden tilaa, historiadataa ja Suomen day-ahead-sähkön hintatietoa.
+
+Järjestelmä käsittelee reaaliaikaista laite- ja energiadataa oikeassa asiakaskohteessa.
 
 ## What the project demonstrates
 
@@ -15,6 +17,7 @@ Järivesi on lämmitysjärjestelmän seuranta- ja ohjausdashboard, joka yhdistä
 - PostgreSQL persistence
 - Cloud deployment
 - Customer-facing dashboard design
+- Real-world production operation
 
 ## Technical stack
 
@@ -25,6 +28,14 @@ Järivesi on lämmitysjärjestelmän seuranta- ja ohjausdashboard, joka yhdistä
 The project is designed around reliable separation between live device state, persisted history and calculated control information. The user interface aims to make a technically complex heating system understandable without exposing unnecessary device-level complexity.
 
 The project also demonstrates how existing physical systems can be extended with modern software, cloud services and data visualization without replacing the underlying equipment.
+
+## Customer privacy
+
+**Customer and site information are confidential.**
+
+Asiakkaan nimeä, sijaintia, osoitetta, laitetunnisteita, IP-osoitteita, kirjautumistietoja tai muuta tunnistettavaa kohdetietoa ei julkaista tässä portfoliossa.
+
+Teknistä arkkitehtuuria, anonymisoituja näkymiä ja toteutusperiaatteita voidaan esitellä rekrytointi- tai koulutusarvioinnissa ilman asiakkaan tunnistettavia tietoja.
 
 ## Source code
 
