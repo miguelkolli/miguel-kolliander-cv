@@ -53,8 +53,10 @@ Olen rakentanut itsenäisesti useita oikeita, tuotantoon vietyjä järjestelmiä
 |---|---|---|
 | **[Shuno.app](projects/shuno.md)** | Full-stack production product, data integrations, cloud deployment | Next.js, React, Node.js, PostgreSQL, Railway, Vercel |
 | **[MGSystem](projects/mgsystem.md)** | AI-assisted development governance and multi-project architecture | Git, testing, architecture, agents, verification |
-| **[Järivesi](projects/jarivesi.md)** | IoT, energy data and real-world automation | Shelly IoT, Node.js, PostgreSQL, time-series data |
+| **[Järivesi](projects/jarivesi.md)** | **Live production** IoT and energy monitoring with customer privacy | Shelly IoT, Node.js, PostgreSQL, time-series data |
 | **[Sportdata](projects/sportdata.md)** | Backend and sports-data pipeline architecture | Node.js, PostgreSQL, REST APIs, data pipelines |
+
+> Järivesi runs in a real customer environment. Customer identity, location, device identifiers and other site-specific information are intentionally not published.
 
 ---
 
