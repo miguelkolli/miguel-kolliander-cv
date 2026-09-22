@@ -62,19 +62,24 @@ Olen rakentanut itsenäisesti useita oikeita, tuotantoon vietyjä järjestelmiä
 
 ## MGSystem
 
-### AI-assisted software development & project governance
+### AI-assisted software engineering control system
 
-MGSystem on rakentamani järjestelmä useiden ohjelmistoprojektien hallintaan. Sen tavoitteena on tehdä AI-agenttien kanssa tehtävästä kehityksestä hallittavaa, dokumentoitua ja toistettavaa.
+MGSystem on rakentamani järjestelmä AI-avusteisen ohjelmistokehityksen hallintaan ja todentamiseen. Se sijoittuu ihmisen tarkoituksen, Git-totuuden, AI-työntekijöiden, determinististen toimintojen, testien, evidencen ja runtime-historian väliin.
 
-Se kattaa muun muassa:
+Tavoitteena on tehdä AI-avusteisesta kehityksestä rajattua, toistettavaa, verifioitavaa ja auditoitavaa ilman, että AI:n tuottama vastaus tai telemetria muuttuu itsessään auktoriteetiksi.
 
-- architecture-first development
-- Git and repository governance
-- project state management
-- automated testing and verification
-- deployment verification
-- documentation and decision tracking
-- AI-agent workflows and guardrails
+Nykyinen työnkulku kattaa muun muassa:
+
+- Git-based RECON and repository truth
+- reusable Skills and policy constraints
+- compatibility resolution and Task Freeze
+- deterministic capabilities and bounded AI execution
+- Python testing and NARF acceptance gates
+- authenticated evidence and execution receipts
+- read-only analytics projection
+- human-controlled intent and decision authority
+
+**Status:** Active development.
 
 > **No code without recon.**
 
@@ -95,6 +100,7 @@ Ennen muutosta selvitetään nykytila, vaikutusalue ja tapa, jolla lopputulos vo
 
 ### Backend & data
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
@@ -121,10 +127,12 @@ Ennen muutosta selvitetään nykytila, vaikutusalue ja tapa, jolla lopputulos vo
 
 ### AI & automation
 
-- AI-assisted software development
+- AI-assisted software engineering
+- AI governance and bounded execution
 - Agent-based development workflows
 - Architecture and task orchestration
-- Automated verification
+- Automated testing and verification
+- Evidence-based acceptance workflows
 - AI-supported debugging
 - Human-controlled development guardrails
 
