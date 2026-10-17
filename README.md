@@ -7,6 +7,7 @@ Rakennan käytännön ohjelmistoja, datajärjestelmiä ja AI-avusteisia kehitysp
 Olen rakentanut itsenäisesti useita oikeita, tuotantoon vietyjä järjestelmiä frontendistä backendiin, tietokantaan, datavirtoihin ja pilvi-infrastruktuuriin asti.
 
 [![Shuno](https://img.shields.io/badge/Live-Shuno.app-111111?style=for-the-badge)](https://shuno.app)
+[![MGnarf](https://img.shields.io/badge/Live-MGnarf_v1.70-2ea44f?style=for-the-badge&logo=github)](https://github.com/miguelkolli/mgnarf)
 [![GitHub](https://img.shields.io/badge/GitHub-miguelkolli-181717?style=for-the-badge&logo=github)](https://github.com/miguelkolli)
 
 ---
@@ -52,11 +53,42 @@ Olen rakentanut itsenäisesti useita oikeita, tuotantoon vietyjä järjestelmiä
 | Project | What it demonstrates | Stack / focus |
 |---|---|---|
 | **[Shuno.app](projects/shuno.md)** | Full-stack production product, data integrations, cloud deployment | Next.js, React, Node.js, PostgreSQL, Railway, Vercel |
+| **[MGnarf](projects/mgnarf.md)** | Public fail-closed execution gate for AI-assisted and automated work | Python, authenticated evidence, security boundaries, GitHub Actions |
 | **[MGSystem](projects/mgsystem.md)** | AI-assisted development governance and multi-project architecture | Git, testing, architecture, agents, verification |
 | **[Järivesi](projects/jarivesi.md)** | **Live production** IoT and energy monitoring with customer privacy | Shelly IoT, Node.js, PostgreSQL, time-series data |
 | **[Sportdata](projects/sportdata.md)** | Backend and sports-data pipeline architecture | Node.js, PostgreSQL, REST APIs, data pipelines |
 
 > Järivesi runs in a real customer environment. Customer identity, location, device identifiers and other site-specific information are intentionally not published.
+
+---
+
+## MGnarf — public / live
+
+### Evidence-first execution gate for AI-assisted automation
+
+**MGnarf** on julkaisemani avoimen lähdekoodin fail-closed execution gate AI-avusteiselle ja automatisoidulle työlle. Se sijoittuu verifioidun työn ja oikean vaikutuksen väliin: deploy, tietokantamuutos, API-kutsu, julkaisu tai muu toiminto saa edetä vasta, kun juuri siihen jäädytettyyn kandidaattiin sidottu evidence on edelleen kelvollinen.
+
+🟢 **Public repository:** https://github.com/miguelkolli/mgnarf  
+**Current stable release:** `v1.70`
+
+MGnarf demonstroi käytännössä muun muassa:
+
+- exact task / candidate / policy / effect binding
+- authenticated N/N verifier evidence
+- fail-closed revalidation immediately before effect
+- optional identity separation and authenticated stage ordering
+- stable operation identity, fencing and replay-resistant execution paths
+- measured PostgreSQL commit-time fencing reference
+- adversarial tests and GitHub Actions evidence
+
+Projektin perusajatus on:
+
+> **Evidence first. Action second.**
+
+MGnarf ei väitä ratkaisevansa kaikkia AI-turvallisuuden ongelmia eikä olevansa riippumaton turvallisuussertifiointi. Sen julkaistut väitteet on rajattu niihin polkuihin ja uhkamalleihin, jotka repositoryssa on eksplisiittisesti mitattu.
+
+➡️ [Read the MGnarf project overview](projects/mgnarf.md)  
+➡️ [Open the public MGnarf repository](https://github.com/miguelkolli/mgnarf)
 
 ---
 
